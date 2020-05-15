@@ -1,0 +1,10 @@
+what I have learned about docker
+
+Why Docker
+Docker is lightwieght, so resource consumption is low, fast. İt ensures mobility of apps between machines. docker succeeds this by packaging both app and bins/libs in a container
+
+#pull ubuntu container from hub.docker.com
+docker pull ubuntu
+
+#run container
+docker run -d --name myfirst ubuntu
