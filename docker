@@ -8,3 +8,13 @@ docker pull ubuntu
 
 #run container
 docker run -d --name myfirst ubuntu
+
+#list running containers
+docker container ls OR docker ps
+
+#stop a container
+docker stop myfirst
+
+#delete a container
+docker rm myfirst
+
